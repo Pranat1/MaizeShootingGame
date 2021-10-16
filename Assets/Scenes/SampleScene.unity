@@ -341,6 +341,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!198 &800395170 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 3465139138919938866, guid: da44270d41cd6324ca181f3b66c8b9b6, type: 3}
+  m_PrefabInstance: {fileID: 7710908165761797839}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1329165888 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7710908165097392428, guid: da44270d41cd6324ca181f3b66c8b9b6, type: 3}
@@ -438,6 +443,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 7710908164109933798, guid: da44270d41cd6324ca181f3b66c8b9b6, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 8390432782618940030, guid: 1b08a95b722490f41af9343f2f89ea79, type: 3}
+    - target: {fileID: 7710908164109933798, guid: da44270d41cd6324ca181f3b66c8b9b6, type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 800395170}
     - target: {fileID: 7710908165097392428, guid: da44270d41cd6324ca181f3b66c8b9b6, type: 3}
       propertyPath: m_RootOrder
       value: 0
