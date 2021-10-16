@@ -18,21 +18,8 @@ public class Weapon : MonoBehaviour
         }
     }
     private void Shoot(){
-        //PlayMuzzleFlash();
-        RaycastHit hit;
-        Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range);
-        Debug.Log(hit.transform.name);
-        /*
-        if (Physics.Raycast(FPCamera.transform.position, FPCamera.transform.forward, out hit, range)){
-            Debug.Log(hit.transform.name);
-            EnimyHealth target = hit.transform.GetComponent<EnimyHealth>();
-            if (target == null) return;
-            target.TakeDamage(damageAmount);
-        }
-        else{
-            return;
-        }
-        //ProcessRaycasting();*/
+        PlayMuzzleFlash();
+        ProcessRaycasting();
         
     }
     private void ProcessRaycasting(){
